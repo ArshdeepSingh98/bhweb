@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import ProfileImage from "./assets/profile_image.png";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
 						  <a href="https://scholar.google.com/citations?user=XdElr0EAAAAJ&hl=en">Dr. Naveen Aggarwal</a>.</div>
 					  <div className='mt-2'><b>Email: </b>bssachde@asu.edu</div>
 				  </div>
-				  <img className="rounded" style={{width: '180px', height: '180px'}} src="assets/profile_image.png" alt=""/>
+				  <img className="rounded" style={{width: '180px', height: '180px'}} src={ProfileImage} alt=""/>
 			  </div>
 			  <div className="d-flex flex-column mb-3">
 				  <div className="h4">Research Interest</div>
