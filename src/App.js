@@ -86,7 +86,7 @@ function App() {
 			  </div>
 
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>Achievements</div>
+				  <div className="h2" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>Achievements</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 
 				  <ul>
