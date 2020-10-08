@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', 'Roboto Slab' sans-serif;
+    font-family: 'Roboto Slab' sans-serif;
     font-size: 18px;
+    font-weight: 400;
 }

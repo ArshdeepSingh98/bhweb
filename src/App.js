@@ -4,12 +4,12 @@ import ProfileImage from "./assets/profile_image.jpg";
 
 function App() {
   return (
-	  <div className="p-2" style={{ background: 'rgba(255, 170, 61, 0.16)'}}>
+	  <div className="p-2" style={{ background: 'rgba(0, 119, 255, 0.3)'}}>
 		  <div className="container p-5 bg-light rounded mt-4" style={{ height: '100%'}}>
 			  
 			  <div className="d-flex mb-5">
 				  <div className="col pl-0">
-					  <div className="h1 font-weight-bold pb-2" style={{ fontFamily: 'Roboto Slab'}}>BHAVDEEP SINGH SACHDEVA</div>
+					  <div className="h1 pb-2" style={{ fontFamily: 'Roboto Slab', fontWeight: '800'}}>BHAVDEEP SINGH SACHDEVA</div>
 					  <hr/>
 					  <div>I am a masters student at <b>Arizona State University</b>. I work with <a href="http://www.public.asu.edu/~cbaral/">Prof. Chitta Baral</a>. Previously I was an Undergraduate student at <b>Panjab University</b>. There I worked with &nbsp;
 						  <a href="https://scholar.google.com/citations?user=XdElr0EAAAAJ&hl=en">Dr. Naveen Aggarwal</a>.</div>
@@ -19,7 +19,7 @@ function App() {
 			  </div>
 
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Research Interest</div>
+				  <div className="h2" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>Research Interest</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 				  <div>
 					  <div className="w-100 font-weight-bold d-flex justify-content-center">"We humans are biased, but our models should not be."</div>
@@ -39,7 +39,7 @@ function App() {
 			  </div>
 			  
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Publications</div>
+				  <div className="h2" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>Publications</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 				  <div>
 					  <div className="h5">Workshop Publications</div>
@@ -76,7 +76,7 @@ function App() {
 			  </div>
 
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Teaching</div>
+				  <div className="h2" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>Teaching</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 
 				  <ul>
@@ -86,7 +86,7 @@ function App() {
 			  </div>
 
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Achievements</div>
+				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>Achievements</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 
 				  <ul>
@@ -99,7 +99,7 @@ function App() {
 			  </div>
 
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Professional Experience</div>
+				  <div className="h2" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>Professional Experience</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 				  <div className="mb-4">
 					  <div className="mb-2">
@@ -131,7 +131,7 @@ function App() {
 			  </div>
 
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Projects</div>
+				  <div className="h2" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>Projects</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 
 				  <div className="mb-2">
