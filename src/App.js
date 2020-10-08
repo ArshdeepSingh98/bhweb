@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import ProfileImage from "./assets/profile_image.png";
+import ProfileImage from "./assets/profile_image.jpg";
 
 function App() {
   return (
-	  <div className="bg-dark p-2">
+	  <div className="bg-white p-2">
 		  <div className="container p-4 bg-light" style={{ height: '100%'}}>
 			  <div className="d-flex mb-5">
 				  <div className="col pl-0">
