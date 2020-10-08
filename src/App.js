@@ -4,36 +4,42 @@ import ProfileImage from "./assets/profile_image.jpg";
 
 function App() {
   return (
-	  <div className="bg-white p-2">
-		  <div className="container p-4 bg-light" style={{ height: '100%'}}>
+	  <div className="p-2" style={{ background: 'rgba(255, 170, 61, 0.16)'}}>
+		  <div className="container p-5 bg-light rounded mt-4" style={{ height: '100%'}}>
+			  
 			  <div className="d-flex mb-5">
 				  <div className="col pl-0">
-					  <div className="h3 font-weight-bold pb-2">Bhavdeep Singh Sachdeva</div>
+					  <div className="h1 font-weight-bold pb-2" style={{ fontFamily: 'Roboto Slab'}}>BHAVDEEP SINGH SACHDEVA</div>
 					  <hr/>
 					  <div>I am a masters student at <b>Arizona State University</b>. I work with <a href="http://www.public.asu.edu/~cbaral/">Prof. Chitta Baral</a>. Previously I was an Undergraduate student at <b>Panjab University</b>. There I worked with &nbsp;
 						  <a href="https://scholar.google.com/citations?user=XdElr0EAAAAJ&hl=en">Dr. Naveen Aggarwal</a>.</div>
 					  <div className='mt-2'><b>Email: </b>bssachde@asu.edu</div>
 				  </div>
-				  <img className="rounded" style={{width: '180px', height: '180px'}} src={ProfileImage} alt=""/>
+				  <img style={{width: '250px', height: 'auto', borderRadius: '100%'}} src={ProfileImage} alt=""/>
 			  </div>
+
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h4">Research Interest</div>
+				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Research Interest</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 				  <div>
 					  <div className="w-100 font-weight-bold d-flex justify-content-center">"We humans are biased, but our models should not be."</div>
 					  <div>I am interested in researching underlying technologies in artificial intelligence to build trustworthy decision systems. I want to achieve this by targeting different kinds of biases in various settings.</div>
+					  <br/>
 					  <ul>
 						  <li className="font-weight-bold">Statistical Bias</li>
 						  <div className="text-justify">My current work under the guidance of Prof. Chitta Baral deals with identifying the statistical biases in the Natural Language Inference problems. I, along with my mentor Ph.D. student Swaroop Mishra and Ms. Anjana Arunkumar (working with Prof. Chris Bryan), surveyed research publications. We identified specific parameters that accounted for the given models' false success on various baselines in NLP leaderboards. We then generalized these parameters and quantified them to seven terms, combining them to give a Data Quality Index(DQI). We are currently evaluating our approach in a dataset creation and bias removal setting. We compare our results with the existing state of the art "AFLite" algorithm. "AFLite" algorithm is a black-box approach for bias removal; if this comparison yields good results even to close range of their results, it will be essential to break this algorithm's opacity. We have also looked at modifying the "bad" sample to adversarial samples simple language modification.</div>
+						  <br/>
 						  <li className="font-weight-bold">Cognitive Bias</li>
 						  <div className="text-justify">Existing systems exploit individual human cognitive biases to manipulate them. One such example is the Recommendation Systems(R.S.) promoting confirmation biases, thus influencing an individual's decision-making process. This technique might be trivial for Amazon's usual product suggestions, but it is critical for suggesting a voting advertisement. I want to curb such biases in high-risk categories.</div>
+						  <br/>
 						  <li className="font-weight-bold">Historical Bias</li>
 						  <div className="text-justify">One obvious source of bias in our models is our data and its sources. Usually, this data is gathered from humanly reported records such as news or Wikipedia data to train a generic model in natural language. The process itself makes such models biased because news and wiki articles are usually reported for tasks that are deemed necessary at that time. The everyday life of a common man is not captured in these articles fully. This can be seen in models such as GPT-3, which have been called out for being biased on numerous occasions if we keep aside its successes. In this case, I want to explore anthropology, seeking techniques for how they make their study category neutral. I want to make datasets category neutral step by step to remove biases in various datasets.</div>
 					  </ul>
 				  </div>
 			  </div>
+			  
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h4">Publications</div>
+				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Publications</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 				  <div>
 					  <div className="h5">Workshop Publications</div>
@@ -70,7 +76,7 @@ function App() {
 			  </div>
 
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h4">Teaching</div>
+				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Teaching</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 
 				  <ul>
@@ -80,7 +86,7 @@ function App() {
 			  </div>
 
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h4">Achievements</div>
+				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Achievements</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 
 				  <ul>
@@ -93,7 +99,7 @@ function App() {
 			  </div>
 
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h4">Professional Experience</div>
+				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Professional Experience</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 				  <div className="mb-4">
 					  <div className="mb-2">
@@ -123,8 +129,9 @@ function App() {
 					  </div>
 				  </div>
 			  </div>
+
 			  <div className="d-flex flex-column mb-3">
-				  <div className="h4">Projects</div>
+				  <div className="h2 font-weight-bold" style={{ fontFamily: 'Roboto Slab'}}>Projects</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 
 				  <div className="mb-2">
