@@ -186,31 +186,54 @@ function App() {
 			  <div className="d-flex flex-column mb-3">
 				  <div className="h2" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>Professional Experience</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
-				  <div className="mb-4">
-					  <div className="mb-2">
-						  <div className="h5 mb-0">Unisys</div>
+
+				  <div className="d-flex justify-content-between mb-2">
+					  <div>
+						  <b>Research Assistant</b>
+						  <div className="font-weight-light">Cognition and Intelligence Lab, ASU, Tempe, AZ</div>
 					  </div>
 					  <div>
-						  <div className="h5 mb-0">Systems Engineer</div>
-						  <div className="font-weight-light">Jul 2016 - Jun 2019 &bull; 3 years</div>
+						  <div className="font-weight-light">August 10, 2020 - December 27, 2020 &bull; 5 months</div>
 					  </div>
 				  </div>
-				  <div className="mb-4">
-					  <div className="mb-2">
-						  <div className="h5 mb-0">Red Dot Foundation-Safecity</div>
+
+				  <div className="d-flex justify-content-between mb-2">
+					  <div>
+						  <b>Research Assistant</b>
+						  <div className="font-weight-light">Cognition and Intelligence Lab, ASU, Tempe, AZ</div>
 					  </div>
 					  <div>
-						  <div className="h5 mb-0">Data Science Volunteer</div>
-						  <div className="font-weight-light">Jan 2018 – Jun 2018 &bull; 6 months</div>
+						  <div className="font-weight-light">January 13,2020 - May 17, 2020 &bull; 5 months</div>
 					  </div>
 				  </div>
-				  <div className="mb-4">
-					  <div className="mb-2">
-						  <div className="h5 mb-0">Gemalto</div>
+
+                  <div className="d-flex justify-content-between mb-2">
+					  <div>
+						  <b>Systems Engineer</b>
+						  <div className="font-weight-light">Unisys, Bangalore</div>
+					  </div>
+                      <div>
+                          <div className="font-weight-light">August, 2018 - June, 2019 &bull; 11 months</div>
+                      </div>
+                  </div>
+
+				  <div className="d-flex justify-content-between mb-2">
+					  <div>
+						  <b>Associate Systems Engineer</b>
+						  <div className="font-weight-light">Unisys, Bangalore</div>
 					  </div>
 					  <div>
-						  <div className="h5 mb-0">Software Engineer Internship</div>
-						  <div className="font-weight-light">Jan 2016 – Jun 2016 &bull; 6 months</div>
+						  <div className="font-weight-light">July, 2016 - June, 2018 &bull; 2 years</div>
+					  </div>
+				  </div>
+
+				  <div className="d-flex justify-content-between">
+					  <div>
+						  <b>Software Engineer Intern</b>
+						  <div className="font-weight-light">Gemalto, Noida</div>
+					  </div>
+					  <div>
+						  <div className="font-weight-light">January, 2016 - June, 2016 &bull; 6 months</div>
 					  </div>
 				  </div>
 			  </div>
@@ -220,44 +243,75 @@ function App() {
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 
 				  <div className="mb-2">
-					  <a className="text-decoration-none text-dark h6" target="_blank" href="https://github.com/bhavdeep98/Political-Bot-detection-and-Evolution">Evolution of Bots on Social Media</a>
-					  <div className="font-weight-light">Nov 2019 – Dec 2019</div>
+					  <div className="d-flex justify-content-between">
+						  <a className="text-decoration-none text-dark font-weight-bold" target="_blank" href="">
+							  Covid Detection Android Application
+						  </a>
+						  <div>
+							  November, 2020
+						  </div>
+					  </div>
+					  <div className="font-weight-light">
+						  Android application for symptoms monitoring and contact tracing.
+					  </div>
 				  </div>
 
 				  <div className="mb-2">
-					  <a className="text-decoration-none text-dark h6" target="_blank" href="https://github.com/bhavdeep98/CSE471IntroductiontoAI">The PAC-Man Projects</a>
-					  <div className="font-weight-light">Nov 2019 – Dec 2019</div>
+					  <div className="d-flex justify-content-between ">
+						  <a className="text-decoration-none text-dark font-weight-bold" target="_blank" href="">
+							  Pursuit Evasion Game
+						  </a>
+						  <div>
+							  April, 2020
+						  </div>
+					  </div>
+					  <div className="font-weight-light">
+						  ROS and RVIZ based virtual turtle bot to map areas and pursuit human.
+					  </div>
 				  </div>
 
 				  <div className="mb-2">
-					  <div className="mb-1 h6">Facial Recognition Using Feature Modulation</div>
-					  <div className="font-weight-light">Aug 2018 – Aug 2018</div>
+					  <div className="d-flex justify-content-between ">
+						  <a className="text-decoration-none text-dark font-weight-bold" target="_blank" href="">
+							  Evolution of Bots
+						  </a>
+						  <div>
+							  November, 2019
+						  </div>
+					  </div>
+					  <div>
+						  A case study to see how political bots have evolved over time.
+					  </div>
 				  </div>
 
 				  <div className="mb-2">
-					  <a className="text-decoration-none text-dark h6" href="https://github.com/bhavdeep98/StockMarketAnalysis">Stock Market Analysis</a>
-					  <div className="font-weight-light">Jan 2018 – Feb 2018</div>
+					  <div className="d-flex justify-content-between ">
+						  <a className="text-decoration-none text-dark font-weight-bold" target="_blank" href="">
+							  Sentiment, Key to user identification
+						  </a>
+						  <div>
+							  December, 2017
+						  </div>
+					  </div>
+					  <div className="font-weight-light">
+						  Use users sentiments for topics to authenticate users.
+					  </div>
 				  </div>
 
 				  <div className="mb-2">
-					  <div className="mb-1 h6">Sentiment, Key to user identification</div>
-					  <div className="font-weight-light">Dec 2017 – Dec 2017</div>
+					  <div className="d-flex justify-content-between ">
+						  <a className="text-decoration-none text-dark font-weight-bold" target="_blank" href="">
+							  Facial Recognition Using Feature Modulation
+						  </a>
+						  <div>
+							  August, 2016
+						  </div>
+					  </div>
+					  <div className="font-weight-light">
+						  Making face recognition algorithms impervious to minor modifications.
+					  </div>
 				  </div>
 
-				  <div className="mb-2">
-					  <div className="mb-1 h6">Drowsy Driver</div>
-					  <div className="font-weight-light">Jul 2017 – Jul 2017</div>
-				  </div>
-
-				  <div className="mb-2">
-					  <div className="mb-1 h6">Malware Detection Using Machine Learning</div>
-					  <div className="font-weight-light">Oct 2016 – Dec 2016</div>
-				  </div>
-
-				  <div className="mb-2">
-					  <div className="mb-1 h6">Key Management System Using CNG</div>
-					  <div className="font-weight-light">Apr 2016 – Apr 2016</div>
-				  </div>
 			  </div>
 		  </div>
 	  </div>
