@@ -1,21 +1,30 @@
 import React from 'react';
 import './App.css';
-import ProfileImage from "./assets/profile_image.jpg";
+import ProfileImage from "./assets/profile_image.png";
 
 function App() {
   return (
-	  <div className="p-2" style={{ background: 'rgba(0, 119, 255, 0.3)'}}>
+	  <div className="p-2" style={{ background: 'rgba(212, 214, 214, 0.3)'}}>
 		  <div className="container p-5 bg-light rounded mt-4" style={{ height: '100%'}}>
 			  
 			  <div className="d-flex mb-5">
-				  <div className="col pl-0">
-					  <div className="h1 pb-2" style={{ fontFamily: 'Roboto Slab', fontWeight: '800'}}>BHAVDEEP SINGH SACHDEVA</div>
-					  <hr/>
-					  <div>I am a masters student at <b>Arizona State University</b>. I work with <a href="http://www.public.asu.edu/~cbaral/">Prof. Chitta Baral</a>. Previously I was an Undergraduate student at <b>Panjab University</b>. There I worked with &nbsp;
-						  <a href="https://scholar.google.com/citations?user=XdElr0EAAAAJ&hl=en">Dr. Naveen Aggarwal</a>.</div>
-					  <div className='mt-2'><b>Email: </b>bssachde@asu.edu</div>
+				  <img style={{width: '250px', height: 'auto', borderRadius: '20%'}} src={ProfileImage} alt=""/>
+				  <div className="col ml-3 text-right d-flex flex-column justify-content-between">
+					  <div>
+						  <div className="h1 pb-2" style={{ fontFamily: 'Roboto Slab', fontWeight: '800'}}>BHAVDEEP SINGH SACHDEVA</div>
+						  <hr/>
+						  <div className="text-justify mb-2">I am a masters student at <b>Arizona State University</b>. I work with <a href="http://www.public.asu.edu/~cbaral/">Prof. Chitta Baral</a>. Previously I was an Undergraduate student at <b>Panjab University</b>. There I worked with &nbsp;
+							  <a href="https://scholar.google.com/citations?user=XdElr0EAAAAJ&hl=en">Dr. Naveen Aggarwal</a>.</div>
+
+						  <div className="d-flex"><div style={{ color: 'coral' }}>Update - </div>&nbsp;Looking for Ph.D. opportunities in Computer Science</div>
+					  </div>
+
+					  <div className='d-flex mt-2 flex-column'>
+						  <div><b>Email: </b>bssachde@asu.edu</div>
+						  <div><b>Ph.: </b>+1 480-408-0760</div>
+						  <div><b>Address: </b>Apart No. 121, 1718, S Jentilly ln, 85281</div>
+					  </div>
 				  </div>
-				  <img style={{width: '250px', height: 'auto', borderRadius: '100%'}} src={ProfileImage} alt=""/>
 			  </div>
 
 			  <div className="d-flex flex-column mb-3">
@@ -42,35 +51,111 @@ function App() {
 				  <div className="h2" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>Publications</div>
 				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
 				  <div>
-					  <div className="h5">Workshop Publications</div>
 					  <ul>
-						  <li>Paper 1</li>
-						  <li>Paper 2</li>
-					  </ul>
-				  </div>
-				  <div>
-					  <div className="h5">Pre-prints</div>
-					  <ul>
-						  <li>Paper 1</li>
-						  <li>Paper 2</li>
-						  <li>Paper 3</li>
-					  </ul>
-				  </div>
-				  <div>
-					  <div className="h5">Journal Publications</div>
-					  <ul>
-						  <li className="d-flex flex-column">
-							  <div>
+
+						  <li>
+							  <div className="d-flex flex-row justify-content-between mt-2">
+								  <a
+									  href="https://arxiv.org/abs/2008.03964"
+									  target="_blank"
+									  className="text-decoration-none text-dark font-weight-bold">
+									  DQI: A Guide to Benchmark Evaluation
+								  </a>
+								  <div style={{ minWidth: 'max-content'}}>ICML Workshop on Uncertainty and Robustness in Deep Learning, 2020</div>
+							  </div>
+							  <div className="d-flex mb-2">Swaroop Mishra, Anjana Arunkumar,<div className="font-weight-bold">&nbsp;Bhavdeep Sachdeva</div>, Chris Bryan, Chitta Baral</div>
+						  </li>
+
+						  <li>
+							  <div className="d-flex flex-row justify-content-between">
+								  <a
+									  href="https://openreview.net/forum?id=vi42eRDhGv7"
+									  target="_blank"
+									  className="text-decoration-none text-dark font-weight-bold">
+									  Real-Time Visual Feedback for Educative Benchmark Creation : A Human-and-Metric-in-the-Loop Workflow
+								  </a>
+								  <div style={{ minWidth: 'max-content'}}>NeurIPS Workshop HAMLETS, 2020</div>
+							  </div>
+							  <div className="d-flex mb-2">Anjana Arunkumar, Swaroop Mishra,<div className="font-weight-bold">&nbsp;Bhavdeep Sachdeva</div>, Chitta Baral and Chris Bryan</div>
+						  </li>
+
+						  <li>
+							  <div className="d-flex flex-row justify-content-between">
+								  <a
+									  href="https://www.aclweb.org/anthology/2020.sustainlp-1.23.pdf"
+									  target="_blank"
+									  className="text-decoration-none text-dark font-weight-bold">
+									  Do We Need to Create Big Datasets to Learn a Task?
+								  </a>
+								  <div style={{ minWidth: 'max-content'}}>SUSTAINLP Workshop, 2020</div>
+							  </div>
+							  <div className="d-flex mb-2">Swaroop Mishra,<div className="font-weight-bold">&nbsp;Bhavdeep Sachdeva</div></div>
+						  </li>
+
+						  <li>
+							  <div className="d-flex flex-row justify-content-between">
 								  <a
 									  href="https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs169259"
+									  target="_blank"
 									  className="text-decoration-none text-dark font-weight-bold">
 									  Traffic state detection using smartphone based acoustic sensing
 								  </a>
+								  <div style={{ minWidth: 'max-content'}}>Journal of Intelligent Fuzzy Systems, 2016</div>
 							  </div>
-							  <div>
-								  Kaur, Arshvir* | Sood, Nitakshi | Aggarwal, Naveen | Vij, Dinesh | Sachdeva, Bhavdeep
-							  </div>
+							  <div className="d-flex">Arshvir Kaur, Nitakshi Sood, Naveen Aggarwal, Dinesh Vij,<div className="font-weight-bold">&nbsp;Bhavdeep Sachdeva</div></div>
 						  </li>
+					  </ul>
+				  </div>
+				  <div>
+					  <div className="h5">In Review</div>
+					  <ul>
+
+						  <li>
+							  <div className="d-flex flex-row justify-content-between">
+								  <a
+									  className="text-decoration-none text-dark font-weight-bold">
+									  Poisoned Data Fools Adversarial Filtering: A Challenge for Pretrained Transformers
+								  </a>
+								  <div style={{ minWidth: 'max-content'}}>NAACL, 2021</div>
+							  </div>
+							  <div className="d-flex mb-2">Swaroop Mishra,<div className="font-weight-bold">&nbsp;Bhavdeep Sachdeva</div>, Chitta Baral</div>
+						  </li>
+
+						  <li>
+							  <div className="d-flex flex-row justify-content-between">
+								  <a
+									  className="text-decoration-none text-dark font-weight-bold">
+									  Towards Question Format Independent Numerical Reasoning: A Set of Prerequisite Tasks
+								  </a>
+								  <div style={{ minWidth: 'max-content'}}>AAAI, 2021</div>
+							  </div>
+							  <div className="d-flex mb-2">Swaroop Mishra, Arindam Mitra, Neeraj Varshney,<div className="font-weight-bold">&nbsp;Bhavdeep Sachdeva</div>, Chitta Baral</div>
+						  </li>
+					  </ul>
+				  </div>
+				  <div>
+					  <div className="h5">In Prep</div>
+					  <ul>
+						  <li>
+							  <div className="d-flex flex-row justify-content-between">
+								  <a
+									  className="text-decoration-none text-dark font-weight-bold">
+									  RFLite: Retaining Inductive Bias and Renovating Spurious Bias
+								  </a>
+							  </div>
+							  <div className="d-flex mb-2">Swaroop Mishra,<div className="font-weight-bold">&nbsp;Bhavdeep Sachdeva</div></div>
+						  </li>
+
+						  <li>
+							  <div className="d-flex flex-row justify-content-between">
+								  <a
+									  className="text-decoration-none text-dark font-weight-bold">
+									  A Paradigm to Tackle Bad Quality Data During Benchmark Creation using Recommendations and Adversarial Transformations
+								  </a>
+							  </div>
+							  <div className="d-flex mb-2"><div className="font-weight-bold">Bhavdeep Sachdeva</div>, Swaroop Mishra, Anjana Arunkumar, Chris Bryan and Chitta Baral</div>
+						  </li>
+
 					  </ul>
 				  </div>
 			  </div>
