@@ -313,6 +313,50 @@ function App() {
 				  </div>
 
 			  </div>
+
+			  <div className="d-flex flex-column mb-3">
+				  <div className="h2" style={{ fontFamily: 'Roboto Slab', fontWeight: '500'}}>References</div>
+				  <div className="mb-2" style={{ borderBottom: '1px solid #ccc', lineHeight: '10px'}}/>
+
+				  <div className="d-flex justify-content-between mb-2">
+					  <div className="d-flex">
+						  <b>Prof. Chitta Baral</b>
+						  <div className="font-weight-light">&nbsp;Arizona State University, Tempe , AZ</div>
+					  </div>
+					  <div>
+						  <a className="text-decoration-none text-dark"
+							 href="mailto:chitta@asu.edu">
+							  chitta@asu.edu
+						  </a>
+					  </div>
+				  </div>
+
+				  <div className="d-flex justify-content-between mb-2">
+					  <div className="d-flex">
+						  <b>Prof. Huan Liu</b>
+						  <div className="font-weight-light">&nbsp;Arizona State University, Tempe , AZ</div>
+					  </div>
+					  <div>
+						  <a className="text-decoration-none text-dark"
+							 href="mailto:huanliu@asu.edu">
+							  huanliu@asu.edu
+						  </a>
+					  </div>
+				  </div>
+
+				  <div className="d-flex justify-content-between mb-2">
+					  <div className="d-flex">
+						  <b>Consulting Engineer, Nandish Jayaram Kopri</b>
+						  <div className="font-weight-light">&nbsp;Unisys, Greater Philadelphia, PA</div>
+					  </div>
+					  <div>
+						  <a className="text-decoration-none text-dark"
+							 href="mailto:nkopri@yahoo.com">
+							  nkopri@yahoo.com
+						  </a>
+					  </div>
+				  </div>
+			  </div>
 		  </div>
 	  </div>
   );
