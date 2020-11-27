@@ -320,7 +320,11 @@ function App() {
 
 				  <div className="d-flex justify-content-between mb-2">
 					  <div className="d-flex">
-						  <b>Prof. Chitta Baral</b>
+						  <a className="text-decoration-none text-dark font-weight-bold"
+							 target="_blank"
+							 href="http://www.public.asu.edu/~cbaral/">
+							  Prof. Chitta Baral
+						  </a>
 						  <div className="font-weight-light">&nbsp;Arizona State University, Tempe , AZ</div>
 					  </div>
 					  <div>
@@ -333,7 +337,11 @@ function App() {
 
 				  <div className="d-flex justify-content-between mb-2">
 					  <div className="d-flex">
-						  <b>Prof. Huan Liu</b>
+						  <a className="text-decoration-none text-dark font-weight-bold"
+							 target="_blank"
+							 href="http://www.public.asu.edu/~huanliu/">
+							  Prof. Huan Liu
+						  </a>
 						  <div className="font-weight-light">&nbsp;Arizona State University, Tempe , AZ</div>
 					  </div>
 					  <div>
@@ -346,7 +354,11 @@ function App() {
 
 				  <div className="d-flex justify-content-between mb-2">
 					  <div className="d-flex">
-						  <b>Consulting Engineer, Nandish Jayaram Kopri</b>
+						  <a className="text-decoration-none text-dark font-weight-bold"
+							 target="_blank"
+							 href="https://www.linkedin.com/in/nandish-kopri-9a190a24/">
+							  Consulting Engineer, Nandish Jayaram Kopri
+						  </a>
 						  <div className="font-weight-light">&nbsp;Unisys, Greater Philadelphia, PA</div>
 					  </div>
 					  <div>
